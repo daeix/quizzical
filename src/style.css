@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f7fb;
+  font-family: "Karla", sans-serif;
+}
+
+.quizzical-title {
+  font-size: 1.953em;
+  color: #293264;
+  margin: 0;
+}
+
+.quizzical-description {
+  font-family: "Inter";
+  font-size: 1em;
+  color: #293264;
+  margin-bottom: 1.75em;
+}
+
+.start-btn {
+  background: #4d5b9e;
+  border-radius: 15px;
+  max-width: 193px;
+  width: 193px;
+  height: 52px;
+  text-align: center;
+  color: #f5f7fb;
+  font-family: "Inter";
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+}
+
+.start-btn:hover {
+  background: #394789;
+}
+
+.start-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 88vh;
+}
+
+.blob1-img {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -10;
+  width: 305px;
+}
+
+.blob2-img {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: -10;
+  width: 305px;
+}
+
+@media (max-width: 700px) {
+  .blob1-img,
+  .blob2-img {
+    width: 150px;
+  }
+}

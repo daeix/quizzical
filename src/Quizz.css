@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f7fb;
+  font-family: "Karla", sans-serif;
+}
+
+.question {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #293264;
+  max-width: 370px;
+}
+
+.answer-btn {
+  background: #f5f7fb;
+  border: 0.794239px solid #4d5b9e;
+  border-radius: 7.94239px;
+  padding: 0.45em 1.15em;
+  cursor: pointer;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75em;
+  line-height: 12px;
+  margin: 0 1em 0 0;
+  text-align: start;
+  max-width: 225px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.checked-style {
+  background: #d6dbf5;
+}
+
+.correct-answer {
+  background: #94d7a2;
+}
+
+.wrong-answer {
+  background: #f8bcbc;
+}
+
+.divider {
+  width: 24em;
+  height: 0px;
+  margin-top: 1.35em;
+  border: 0.794239px solid #dbdef0;
+}
+
+.quizz-page {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-questions {
+  width: 125px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  background: #4d5b9e;
+  border-radius: 10px;
+  color: #f5f7fb;
+  font-size: 0.8em;
+}
+
+.submit-questions:hover {
+  background: #394789;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.score {
+  text-align: center;
+  font-weight: bold;
+  color: #293264;
+  margin: 0 1.75em;
+}
+
+.score-container {
+  display: flex;
+  align-items: center;
+}
+
+.play-again-btn {
+  background: #4d5b9e;
+  border-radius: 10px;
+  border: none;
+  color: #f5f7fb;
+  width: 105px;
+  height: 31px;
+  cursor: pointer;
+}
+
+.answers {
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .answers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+  }
+
+  .quizz-page {
+    margin-top: 0;
+  }
+
+  img {
+    width: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    margin-left: 1.35em;
+  }
+  .score-container {
+    max-width: 310px;
+  }
+}
