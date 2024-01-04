@@ -115,8 +115,8 @@ input[type="radio"] {
 @media (max-width: 700px) {
   .answers {
     display: grid;
-    grid-template-columns: 1fr 1fr
-    gap: 0.5em;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7em;
   }
 
   .quizz-page {
