@@ -119,6 +119,10 @@ input[type="radio"] {
     gap: 0.7em;
   }
 
+  body{
+    zoom: 0.77
+  }
+
   .quizz-page {
     margin-top: 0;
   }
