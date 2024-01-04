@@ -71,6 +71,7 @@ input[type="radio"] {
   border-radius: 10px;
   color: #f5f7fb;
   font-size: 0.8em;
+  margin-bottom:1em
 }
 
 .submit-questions:hover {
