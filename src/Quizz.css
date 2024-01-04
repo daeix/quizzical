@@ -95,6 +95,7 @@ input[type="radio"] {
 .score-container {
   display: flex;
   align-items: center;
+  margin-bottom:2em
 }
 
 .play-again-btn {
